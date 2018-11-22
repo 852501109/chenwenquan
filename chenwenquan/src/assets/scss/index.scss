@@ -1,0 +1,38 @@
+$color-error: #df040f;
+$color-success: #10cb7e;
+$color-warning: #eb9e05;
+.toastWarningColor{
+    width: 140px;
+    height: 130px;
+    color: $color-warning !important;
+    background: rgba(16, 203, 126, 0.3) !important;
+}
+.toastErrorColor{
+  width: 140px;
+  height: 130px;
+  color: $color-error !important;
+  background: rgba(16, 203, 126, 0.3) !important;
+}
+.toastSuccessColor{
+  width: 140px;
+  height: 130px;
+  color: $color-error !important;
+  background: rgba(16, 203, 126, 0.3) !important;
+}
+.mint-cell-text{
+  color: #9c9c9c !important;
+}
+.tipStyle {
+  margin: 7px;
+  span {
+      display: inline-block;
+      min-width: 70px;
+      height: 25px;
+      line-height: 25px;
+      background: rgb(248, 111, 111);
+      color: #fff;
+      border-radius: 5px;
+      text-align: center;
+      margin-left: 3px;
+  }
+}
